@@ -1,0 +1,17 @@
+{
+  "name": "Vault",
+  "short_name": "Vault",
+  "theme_color": "#1976d2",
+  "background_color": "#fafafa",
+  "display": "fullscreen",
+  "scope": "./",
+  "start_url": "./",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ]
+}
