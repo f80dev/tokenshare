@@ -1,0 +1,71 @@
+{
+  "configVersion": 1,
+  "timestamp": 1762468233055,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.94dd9a49358b18a3.js",
+        "/manifest.webmanifest",
+        "/polyfills.3188fb7fbebe2ce0.js",
+        "/runtime.221259c29517f6e8.js",
+        "/styles.e6e99b837c6e70df.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/coin.png",
+        "/logo.png",
+        "/vault.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/coin.png": "5009382dff3a6389b0efee7ba258f6aa2d4776c7",
+    "/favicon.ico": "289e03a954a98ea262e8a8ece85cdafbd3c311d9",
+    "/index.html": "aca6e25bb2205530eb88cd750f7b8db850ba54d5",
+    "/logo.png": "289e03a954a98ea262e8a8ece85cdafbd3c311d9",
+    "/main.94dd9a49358b18a3.js": "4f1f74802ef7941b6ffb1c3eee543812d454a142",
+    "/manifest.webmanifest": "9f8e7e4eef81370e40d7dd7083443403b77ea84d",
+    "/polyfills.3188fb7fbebe2ce0.js": "22d79d285a6a3b0057640f712f3fc927c01d3a3f",
+    "/runtime.221259c29517f6e8.js": "627eb90657c76ad6b9539ba469be01f2c6061a09",
+    "/styles.e6e99b837c6e70df.css": "322e78d0accb2af06bb7ddce778c6f3b06f78d86",
+    "/vault.jpg": "660e0b35231801bd2b9d9bc881d24076a399bdb9"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
